@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi", "RestApi\RestApi.csproj", "{A602EFA1-1E56-4D2A-B11B-11F3EBC3CCBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer.Test", "BusinessLayer.Test\BusinessLayer.Test.csproj", "{A5C7B3D0-78E2-4366-9D00-78BD4D09A3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHelper", "TestHelper\TestHelper.csproj", "{5D55E257-678E-4A19-94D7-A271E028CDC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A602EFA1-1E56-4D2A-B11B-11F3EBC3CCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A602EFA1-1E56-4D2A-B11B-11F3EBC3CCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A602EFA1-1E56-4D2A-B11B-11F3EBC3CCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A602EFA1-1E56-4D2A-B11B-11F3EBC3CCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C7B3D0-78E2-4366-9D00-78BD4D09A3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C7B3D0-78E2-4366-9D00-78BD4D09A3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C7B3D0-78E2-4366-9D00-78BD4D09A3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C7B3D0-78E2-4366-9D00-78BD4D09A3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D55E257-678E-4A19-94D7-A271E028CDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D55E257-678E-4A19-94D7-A271E028CDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D55E257-678E-4A19-94D7-A271E028CDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D55E257-678E-4A19-94D7-A271E028CDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82BA83FA-A57E-42C4-A6B4-22D7EE7A7431}
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
